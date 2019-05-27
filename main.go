@@ -13,7 +13,7 @@ func check(e error) {
 }
 
 func openTemplate(templateName string) []byte {
-	dat, err := ioutil.ReadFile("templates/" + templateName)
+	dat, err := ioutil.ReadFile(templateName)
     check(err)
 	return dat
 }
