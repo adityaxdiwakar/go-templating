@@ -19,7 +19,7 @@ func openTemplate(templateName string) []byte {
 }
 
 func ReplaceOccurances(templateName string, items map[string]string) []byte {
-	re := regexp.MustCompile(`{{\s?[A-z]+\s?}}`)
+	re := regexp.MustCompile(`{{\s?(([A-Za-z_][A-Za-z0-9_]*))\s?}}`)
 	file := openTemplate(templateName)
 	queries := re.FindAll(file, -1)
 
