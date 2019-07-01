@@ -8,13 +8,13 @@ This was written and open sourced by the [NetVPX](https://netvpx.com/) DevOps te
 To use this library, simply install it using:
 
 ```
-go get github.com/netvpx/go-sendpulse
+go get github.com/adityaxdiwakar/go-sendpulse
 ```
 
 If you awnt to set it up as a submodule, use:
 
 ```
-git submodule add https://github.com/netvpx/go-templating github.com/netvpx/go-templating
+git submodule add https://github.com/adityaxdiwakar/go-templating github.com/adityaxdiwakar/go-templating
 ```
 
 ## Usage
@@ -89,7 +89,7 @@ package main
 
 import (
     "fmt"
-    "github.com/netvpx/go-templating"
+    "github.com/adityaxdiwakar/go-templating"
 )
 
 func main() {
