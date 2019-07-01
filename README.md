@@ -1,7 +1,7 @@
 # go-templating
 A template engine written in Golang for NetVPX.
 
-This was written and open saourced by the [NetVPX](https://netvpx.com/) DevOps team for internal usage. This library is maintained by the team for the public.
+This was written and open saourced by the [NetVPX](https://netvpx.com/) DevOps team for internal usage. This library is now maintained by Aditya Diwakar, not affiliated with NetVPX.
 
 ## Install
 
